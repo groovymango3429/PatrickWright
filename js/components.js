@@ -14,8 +14,9 @@ export function createSocialLink(item) {
 export function createProjectCard(project) {
   const article = document.createElement('article');
   article.className = 'card reveal';
+
   article.innerHTML = `
-    <h3><a href="${project.links.page}">${project.title}</a></h3>
+    <h3>${project.title}</h3>
     <p><strong>${project.role}</strong> · ${project.organization}</p>
     <p><strong>Location:</strong> ${project.location}</p>
     <p><strong>Dates:</strong> ${project.dates}</p>
@@ -25,8 +26,8 @@ export function createProjectCard(project) {
     <p><strong>Results:</strong> ${project.results}</p>
     <p><strong>Skills:</strong> ${project.skills.join(', ')}</p>
     <p><strong>Tech:</strong> ${project.technologies.join(', ')}</p>
-    <p><a href="${project.links.page}">Open project details →</a></p>
   `;
+
   return article;
 }
 

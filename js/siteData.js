@@ -20,10 +20,7 @@ export const projects = [
     results:
       'Identified and documented LPU hardware, Allen-Bradley CompactLogix 5380 PLC hardware, analog heater controls, I/O modules, instrumentation interfaces, thermocouple safety circuits, relays, contactors, and 4-20 mA PLC interfaces while investigating legacy PC connectivity.',
     skills: ['PLCs', 'Instrumentation', 'Electrical Schematics', 'P&IDs', 'Troubleshooting'],
-    technologies: ['Allen-Bradley CompactLogix 5380', 'Leeds & Northrup LPU', 'Analog I/O', 'Thermocouples'],
-    links: {
-      page: './projects/nasa-scwo-research.html'
-    }
+    technologies: ['Allen-Bradley CompactLogix 5380', 'Leeds & Northrup LPU', 'Analog I/O', 'Thermocouples']
   },
   {
     title: 'Science Olympiad Electric Vehicle',
@@ -39,10 +36,7 @@ export const projects = [
       'Integrated the mechanical structure, electrical system, motors, wiring, and ESP32 control logic, then iterated through testing and tuning.',
     results: 'Won first place in a state competition.',
     skills: ['Mechanical Design', 'ESP32 Programming', 'Embedded Control', 'Testing and Tuning'],
-    technologies: ['ESP32', 'Embedded Programming', 'Motor Control', 'Prototyping'],
-    links: {
-      page: './projects/additional-engineering-project.html'
-    }
+    technologies: ['ESP32', 'Embedded Programming', 'Motor Control', 'Prototyping']
   },
   {
     title: 'Python Graphing Calculator',
@@ -59,10 +53,7 @@ export const projects = [
     results:
       'Delivered a complete interactive calculator application with GUI-based graphing and coordinate exploration.',
     skills: ['Python', 'Pygame', 'GUI Development', 'Equation Parsing'],
-    technologies: ['Python', 'Pygame'],
-    links: {
-      page: './projects/novel-exoskeletons-creative-inquiry.html'
-    }
+    technologies: ['Python', 'Pygame']
   }
 ];
 

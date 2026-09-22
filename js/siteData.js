@@ -6,54 +6,62 @@ export const socialLinks = [
 
 export const projects = [
   {
-    title: 'NASA Supercritical Water Oxidation (SCWO) System',
+    title: 'NASA Supercritical Water Oxidation (SCWO) System – Undergraduate Researcher',
     role: 'Undergraduate Researcher',
-    dates: 'Aug 2026 - Present',
-    summary: 'Recommissioning the computer control system of a NASA-developed SCWO research apparatus for high-temperature, high-pressure waste treatment.',
-    detail: 'Working in Clemson\'s Spherical Flames and Supercritical Oxidation Creative Inquiry to reconstruct the apparatus\'s legacy and modern control architecture and support restoration of system monitoring, control, and data-acquisition capabilities.',
-    objectives: 'Restore reliable control-system operation and document the interfaces needed for future SCWO experiments.',
-    problem: 'The apparatus combines legacy control hardware with modern PLC equipment, instrumentation, and heater-control circuits whose connections are not fully documented.',
-    approach: 'Correlated P&IDs, operations manuals, wiring diagrams, electrical schematics, and physical hardware inspections to trace electrical and communication interfaces.',
-    results: 'Documented the roles and interfaces of Leeds & Northrup LPU hardware, an Allen-Bradley CompactLogix 5380 PLC, analog heater controls, I/O modules, thermocouple safety circuits, solid-state relays, contactors, and 4-20 mA interfaces.',
-    skills: ['Controls', 'Instrumentation', 'Electrical Troubleshooting', 'Experimental Methods', 'Technical Documentation'],
-    technologies: ['Allen-Bradley CompactLogix 5380', 'Leeds & Northrup LPU', 'P&IDs', 'Wiring Diagrams', 'Analog I/O', 'Thermocouples'],
-    images: [],
+    organization: 'Clemson University Creative Inquiry',
+    location: 'Clemson, SC',
+    dates: 'August 2026 - Present',
+    summary:
+      'Recommissioning the computer control system of a NASA-developed Supercritical Water Oxidation apparatus for high-temperature, high-pressure waste treatment research.',
+    problem:
+      'The apparatus combines legacy and modern controls, instrumentation, and safety hardware with incomplete interface documentation.',
+    approach:
+      'Reverse-engineering control architecture and tracing electrical/communication interfaces using P&IDs, manuals, wiring diagrams, schematics, and hardware inspections.',
+    results:
+      'Identified and documented LPU hardware, Allen-Bradley CompactLogix 5380 PLC hardware, analog heater controls, I/O modules, instrumentation interfaces, thermocouple safety circuits, relays, contactors, and 4-20 mA PLC interfaces while investigating legacy PC connectivity.',
+    skills: ['PLCs', 'Instrumentation', 'Electrical Schematics', 'P&IDs', 'Troubleshooting'],
+    technologies: ['Allen-Bradley CompactLogix 5380', 'Leeds & Northrup LPU', 'Analog I/O', 'Thermocouples'],
     links: {
       page: './projects/nasa-scwo-research.html'
     }
   },
   {
     title: 'Science Olympiad Electric Vehicle',
-    role: 'Designer and Builder',
-    dates: 'Oct 2023 - Jun 2024',
-    summary: 'Designed, built, programmed, and tested a miniature electric vehicle for Science Olympiad competition.',
-    detail: 'Completed the vehicle build from the ground up, integrating the mechanical structure, electrical system, and ESP32-based control hardware for repeatable competition performance.',
-    objectives: 'Build and tune a compact electric vehicle capable of meeting event requirements for speed, positioning, and controlled stopping.',
-    problem: 'The vehicle had to combine precise motion control, a lightweight mechanical design, and reliable electrical operation within competition constraints.',
-    approach: 'Designed and assembled the vehicle, programmed the ESP32, and iterated through testing and adjustments to improve its operation on the competition course.',
-    results: 'Won first place in a state competition with the team.',
-    skills: ['Mechanical Design', 'Embedded Programming', 'Prototyping', 'Testing', 'Team Collaboration'],
-    technologies: ['ESP32', 'Embedded C/C++', 'DC Motors', 'Electrical Wiring', 'Mechanical Prototyping'],
-    images: [],
+    role: 'Designer, Builder, and Programmer',
+    organization: 'Science Olympiad',
+    location: 'South Carolina',
+    dates: 'October 2023 - June 2024',
+    summary:
+      'Designed, built, programmed, and tested a miniature electric vehicle from the ground up for competition.',
+    problem:
+      'The vehicle needed reliable motion behavior and repeatable event performance within competition constraints.',
+    approach:
+      'Integrated the mechanical structure, electrical system, motors, wiring, and ESP32 control logic, then iterated through testing and tuning.',
+    results: 'Won first place in a state competition.',
+    skills: ['Mechanical Design', 'ESP32 Programming', 'Embedded Control', 'Testing and Tuning'],
+    technologies: ['ESP32', 'Embedded Programming', 'Motor Control', 'Prototyping'],
     links: {
-      page: './projects/science-olympiad-electric-vehicle.html'
+      page: './projects/additional-engineering-project.html'
     }
   },
   {
     title: 'Python Graphing Calculator',
-    role: 'Programmer and Developer',
+    role: 'Sole Developer',
+    organization: 'Personal Software Project',
+    location: 'Clemson, SC',
     dates: 'Spring 2023',
-    summary: 'Built a desktop graphing calculator in Python with an interactive Pygame interface.',
-    detail: 'Developed the application from the ground up, including equation parsing, graph-point generation, coordinate-table calculations, user controls, and the graphical interface.',
-    objectives: 'Create a usable graphing tool that combines visual plotting with numerical evaluation of user-entered equations.',
-    problem: 'The calculator needed to translate typed equations into plotted coordinates while remaining responsive to zooming, panning, table navigation, and exact-value requests.',
-    approach: 'Implemented equation parsing, dynamic graph sampling, centered coordinate transforms, keyboard and mouse controls, a draggable value table, and a settings/instructions interface in Pygame.',
-    results: 'Completed a working interactive calculator that plots equations, displays tabulated values, supports zoom and pan controls, and evaluates an exact y-value for a selected x-value.',
-    skills: ['Python Programming', 'GUI Development', 'Numerical Evaluation', 'Data Visualization', 'User Interaction Design'],
-    technologies: ['Python', 'Pygame', 'Event-Driven Programming', 'Coordinate Transforms'],
-    images: [],
+    summary:
+      'Built a Python and Pygame graphing calculator with interactive plotting, parsing, and coordinate tools.',
+    problem:
+      'The application needed to parse equations and present responsive graph interaction for plotting and value exploration.',
+    approach:
+      'Implemented equation input and parsing, graph plotting, dynamic point generation, coordinate transforms, zoom/pan controls, keyboard and mouse interaction, a draggable coordinate table, selected x-value evaluation, and settings/instructions views.',
+    results:
+      'Delivered a complete interactive calculator application with GUI-based graphing and coordinate exploration.',
+    skills: ['Python', 'Pygame', 'GUI Development', 'Equation Parsing'],
+    technologies: ['Python', 'Pygame'],
     links: {
-      page: './projects/python-graphing-calculator.html'
+      page: './projects/novel-exoskeletons-creative-inquiry.html'
     }
   }
 ];
@@ -61,50 +69,117 @@ export const projects = [
 export const experience = [
   {
     position: 'Undergraduate Researcher',
-    organization: 'Clemson University - Spherical Flames and Supercritical Oxidation Creative Inquiry',
-    dates: 'Aug 2026 - Present',
+    organization:
+      'Clemson University — Spherical Flames and Supercritical Oxidation: Applications in Aerospace Propulsion and Space Explorations',
+    dates: 'August 2026 - Present',
     location: 'Clemson, SC',
-    description: 'Recommissioning the computer control system of a NASA-developed Supercritical Water Oxidation research apparatus.',
-    accomplishments: 'Reverse-engineered legacy and modern control architecture; traced electrical and communication interfaces using P&IDs, manuals, wiring diagrams, schematics, and hardware inspections; documented PLC, heater-control, instrumentation, and safety-circuit interfaces.',
-    technicalSkills: 'Allen-Bradley CompactLogix 5380, Leeds & Northrup LPU, PLCs, Analog I/O, Instrumentation, P&IDs, Electrical Schematics, Technical Documentation'
+    description:
+      'Recommissioning the NASA SCWO system control environment and documenting control, instrumentation, and communication pathways.',
+    accomplishments:
+      'Reverse-engineered legacy and modern architecture and traced interfaces across PLC, heater-control, instrumentation, and safety systems for restoration of monitoring, control, and data acquisition capability.',
+    technicalSkills:
+      'Allen-Bradley CompactLogix, PLC Interfaces, Analog I/O, Instrumentation, Thermocouples, P&IDs, Electrical Schematics, Technical Documentation'
   },
   {
     position: 'Intern',
     organization: 'Balfour Beatty',
-    dates: 'Jul 2022 - Aug 2022',
+    dates: 'July 2022 - August 2022',
     location: 'Charlotte, NC',
-    description: 'Observed construction project management activities and reviewed the engineering and construction documentation used on active projects.',
-    accomplishments: 'Job-shadowed a senior project manager, participated in site visits, and reviewed construction plans to develop familiarity with project coordination and field execution.',
-    technicalSkills: 'Construction Plans, Site Visits, Project Management, Field Observation'
+    description:
+      'Supported learning in construction project delivery through direct exposure to active project workflows.',
+    accomplishments:
+      'Job-shadowed a senior project manager, attended site visits, and reviewed construction plans.',
+    technicalSkills: 'Plan Review, Site Observation, Project Coordination'
   },
   {
     position: 'Ride Operator',
     organization: 'Carowinds',
-    dates: 'Jan 2021 - May 2022',
+    dates: 'January 2021 - May 2022',
     location: 'Charlotte, NC',
-    description: 'Operated amusement rides while following established safety procedures and assisting guests during daily park operations.',
-    accomplishments: 'Built experience in procedural compliance, situational awareness, customer communication, and consistent operation in a high-volume environment.',
-    technicalSkills: 'Safety Procedures, Operations, Team Communication, Customer Service'
+    description: 'Maintained safe and consistent ride operation in a high-volume guest environment.',
+    accomplishments:
+      'Applied safety procedures, procedural compliance, situational awareness, guest communication, teamwork, and consistent operations every shift.',
+    technicalSkills: 'Safety Procedures, Procedural Compliance, Teamwork, Guest Communication'
   }
 ];
 
 export const skills = [
   {
-    category: 'CAD and Design',
+    category: 'Engineering and CAD',
     items: ['SolidWorks', 'Fusion 360', 'Autodesk Inventor', 'Autodesk Revit', 'Mechanical Design', 'Prototyping']
   },
   {
-    category: 'Programming',
+    category: 'Programming and Computation',
     items: ['Python', 'Pygame', 'MATLAB', 'Lua', 'G-code', 'ESP32 Programming']
   },
   {
     category: 'Controls and Research',
-    items: ['Allen-Bradley CompactLogix', 'PLCs', 'Analog I/O', 'Instrumentation', 'Thermocouples', 'P&IDs', 'Electrical Schematics', 'Experimental Methods']
+    items: [
+      'PLCs',
+      'Allen-Bradley CompactLogix Systems',
+      'Analog I/O',
+      'Instrumentation',
+      'Thermocouples',
+      'P&IDs',
+      'Electrical Schematics',
+      'Experimental Methods',
+      'Technical Documentation',
+      'Troubleshooting'
+    ]
   }
 ];
 
-// These arrays remain available for future project photos. They are intentionally
-// empty until real photographs or screenshots are added.
-export const galleryItems = [];
+// Add future image entries in assets/images and use this format:
+// { category, src, alt, caption, title, featured }
+export const galleryItems = [
+  {
+    category: 'Research',
+    src: '',
+    alt: '',
+    title: 'SCWO Control System Work',
+    caption: 'Project images will be added here.',
+    featured: true
+  },
+  {
+    category: 'Controls',
+    src: '',
+    alt: '',
+    title: 'PLC and Instrumentation',
+    caption: 'Project images will be added here.',
+    featured: true
+  },
+  {
+    category: 'Projects',
+    src: '',
+    alt: '',
+    title: 'Design and Build Projects',
+    caption: 'Project images will be added here.',
+    featured: true
+  },
+  {
+    category: 'CAD',
+    src: '',
+    alt: '',
+    title: 'CAD Models',
+    caption: 'Project images will be added here.',
+    featured: false
+  },
+  {
+    category: 'Prototyping',
+    src: '',
+    alt: '',
+    title: 'Prototype Iterations',
+    caption: 'Project images will be added here.',
+    featured: false
+  },
+  {
+    category: 'Experiments',
+    src: '',
+    alt: '',
+    title: 'Experimental Setups',
+    caption: 'Project images will be added here.',
+    featured: false
+  }
+];
 
-export const researchImages = [];
+export const researchImages = galleryItems.filter((item) => item.category === 'Research');

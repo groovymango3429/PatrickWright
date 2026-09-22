@@ -122,36 +122,48 @@ export const skills = [
 export const galleryItems = [
   {
     category: 'Research',
-    src: '',
-    alt: '',
-    title: 'SCWO Control System Work',
-    caption: 'Project images will be added here.',
+    src: './assets/images/scwo-whole-machine.png',
+    alt: 'Complete Supercritical Water Oxidation research apparatus',
+    title: 'SCWO Apparatus',
+    caption: 'NASA-developed Supercritical Water Oxidation research apparatus.',
     featured: true
   },
   {
     category: 'Controls',
-    src: '',
-    alt: '',
-    title: 'PLC and Instrumentation',
-    caption: 'Project images will be added here.',
+    src: './assets/images/controls-equipment.png',
+    alt: 'SCWO control equipment',
+    title: 'SCWO Control Equipment',
+    caption: 'Control hardware inspected during system recommissioning.',
+    featured: true
+  },
+  {
+    category: 'Controls',
+    src: './assets/images/plc.png',
+    alt: 'Allen-Bradley PLC',
+    title: 'CompactLogix PLC',
+    caption: 'Allen-Bradley CompactLogix PLC used in the SCWO control system.',
     featured: true
   },
   {
     category: 'Projects',
-    src: '',
-    alt: '',
-    title: 'Design and Build Projects',
-    caption: 'Project images will be added here.',
+    src: './assets/images/electric-vehicle-picture.png',
+    alt: 'Science Olympiad electric vehicle',
+    title: 'Science Olympiad Electric Vehicle',
+    caption: 'ESP32-controlled electric vehicle designed and built for competition.',
     featured: true
   },
   {
     category: 'CAD',
-    src: '',
-    alt: '',
-    title: 'CAD Models',
-    caption: 'Project images will be added here.',
+    src: './assets/images/gallery-cad.png',
+    alt: 'Mechanical CAD design',
+    title: 'CAD Design',
+    caption: 'Mechanical design and modeling work.',
     featured: false
   }
 ];
+
+export const researchImages = galleryItems.filter(
+  (item) => item.category === 'Research'
+);
 
 export const researchImages = galleryItems.filter((item) => item.category === 'Research');

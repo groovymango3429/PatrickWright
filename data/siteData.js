@@ -1,21 +1,19 @@
 export const socialLinks = [
-  { label: 'Email', value: 'patrick@example.com', href: 'mailto:patrick@example.com' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/[add-handle]', href: 'https://www.linkedin.com/in/' },
-  { label: 'GitHub', value: 'github.com/[add-username]', href: 'https://github.com/' },
-  { label: 'Phone (Optional)', value: '[Add Phone Number]', href: '#' }
+  { label: 'Email', value: 'patrickchasewright@gmail.com', href: 'mailto:patrickchasewright@gmail.com' },
+  { label: 'LinkedIn', value: 'linkedin.com/in/patrickw3/', href: 'https://www.linkedin.com/in/patrickw3/' },
+  { label: 'Phone', value: '803-992-0415', href: '#' }
 ];
 
 export const projects = [
   {
     title: 'NASA Supercritical Water Oxidation (SCWO) Research',
     role: 'Undergraduate Research Assistant',
-    organization: 'Clemson University [Lab Placeholder]',
-    dates: '[Add Dates]',
+    dates: 'Aug 2026 - Present',
     summary: 'Controls and instrumentation-focused research support for SCWO apparatus development and testing.',
     detail: 'Contributed to engineering setup, controls integration, and test procedure execution for SCWO research hardware in a laboratory environment.',
     objectives: 'Improve system reliability, data quality, and controllability for SCWO experiments.',
-    problem: 'The SCWO platform requires coordinated instrumentation, control logic, and safe operation under demanding conditions.',
-    approach: 'Applied structured troubleshooting, controls verification, hardware documentation, and iterative setup refinement.',
+    problem: 'The SCWO platform requires coordinated instrumentation, control logic, and safe operation under supercritical conditions.',
+    approach: 'Applied structured troubleshooting, controls verification and hardware documentation',
     results: '[Add validated outcomes, performance improvements, or test milestones]',
     skills: ['Controls', 'Instrumentation', 'Experimental Methods', 'Technical Documentation'],
     technologies: ['CompactLogix PLC', 'Analog Control Hardware', 'P&ID Workflows'],
@@ -25,16 +23,13 @@ export const projects = [
       { src: '/assets/images/scwo-plc-placeholder.svg', alt: 'CompactLogix PLC placeholder', caption: 'CompactLogix PLC Placeholder' }
     ],
     links: {
-      page: './projects/nasa-scwo-research.html',
-      github: '#',
-      documents: '#'
+      page: 'https://www.nasa.gov/ames/space-biosciences/water-recovery-systems/',
     }
   },
   {
-    title: 'Novel Exoskeletons Creative Inquiry',
-    role: 'Team Member',
-    organization: 'Clemson Creative Inquiry',
-    dates: '[Add Dates]',
+    title: 'Electric Vehicle',
+    role: 'Leader',
+    dates: 'Dec 2023-May 2024',
     summary: 'Collaborative exoskeleton design and prototyping effort for assisted movement concepts.',
     detail: 'Supported subsystem design, testing, and integration discussions with a multidisciplinary team.',
     objectives: 'Develop and evaluate practical design concepts for wearable mechanical assistance.',

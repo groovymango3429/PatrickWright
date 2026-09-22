@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery | Patrick Wright</title>
+    <meta name="description" content="Project and research image gallery for Patrick Wright's mechanical engineering portfolio." />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <nav class="container nav" aria-label="Gallery navigation">
+        <a class="brand" href="./index.html">Patrick Wright</a>
+        <ul class="menu static-menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html#projects">Projects</a></li>
+          <li><a href="./index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content" class="section">
+      <section class="container reveal">
+        <div class="section-heading">
+          <div>
+            <h1>Image Gallery</h1>
+            <p class="muted">Categories include Research, Controls, CAD, Prototyping, Experiments, and Projects.</p>
+          </div>
+          <a class="btn btn-secondary" href="./index.html#images">Back to Homepage Images</a>
+        </div>
+        <div id="gallery-grid" class="grid gallery-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>Patrick Wright · Mechanical Engineering · Clemson, SC</p>
+        <ul id="footer-links" class="social-links compact"></ul>
+        <p>© <span id="year"></span> Patrick Wright</p>
+      </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Expanded image view">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close image">×</button>
+      <img id="lightbox-image" alt="Expanded project image" />
+      <p id="lightbox-caption"></p>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

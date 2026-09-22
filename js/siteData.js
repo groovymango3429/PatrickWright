@@ -165,5 +165,3 @@ export const galleryItems = [
 export const researchImages = galleryItems.filter(
   (item) => item.category === 'Research'
 );
-
-export const researchImages = galleryItems.filter((item) => item.category === 'Research');

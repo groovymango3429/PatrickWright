@@ -23,7 +23,7 @@ export const projects = [
       { src: '/assets/images/scwo-plc-placeholder.svg', alt: 'CompactLogix PLC placeholder', caption: 'CompactLogix PLC Placeholder' }
     ],
     links: {
-      page: 'https://www.nasa.gov/ames/space-biosciences/water-recovery-systems/',
+      page: './projects/nasa-scwo-research.html',
     }
   },
   {
@@ -48,11 +48,10 @@ export const projects = [
     }
   },
   {
-    title: 'Additional Engineering Project',
-    role: '[Add Role/Title]',
-    organization: '[Organization/Course/Lab]',
-    dates: '[Add Dates]',
-    summary: 'Placeholder for future engineering project documentation.',
+    title: 'Graphing Calculator',
+    role: 'Programmer',
+    dates: 'Spring 2023',
+    summary: 'Using python, coded and created a working graphing calculator + UI.',
     detail: 'Add engineering context, implementation details, and outcomes for this project.',
     objectives: '[Add objective]',
     problem: '[Add engineering problem statement]',

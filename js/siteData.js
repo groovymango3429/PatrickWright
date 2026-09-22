@@ -19,8 +19,8 @@ export const projects = [
       'Reverse-engineering control architecture and tracing electrical/communication interfaces using P&IDs, manuals, wiring diagrams, schematics, and hardware inspections.',
     results:
       'Identified and documented LPU hardware, Allen-Bradley CompactLogix 5380 PLC hardware, analog heater controls, I/O modules, instrumentation interfaces, thermocouple safety circuits, relays, contactors, and 4-20 mA PLC interfaces while investigating legacy PC connectivity.',
-    skills: ['PLCs', 'Instrumentation', 'Electrical Schematics', 'P&IDs', 'Troubleshooting'],
-    technologies: ['Allen-Bradley CompactLogix 5380', 'Leeds & Northrup LPU', 'Analog I/O', 'Thermocouples']
+    skills: ['PLCs', 'Instrumentation', 'P&IDs', 'Troubleshooting'],
+    technologies: ['Allen-Bradley CompactLogix 5380', 'Leeds & Northrup LPU', 'Thermocouples']
   },
   {
     title: 'Science Olympiad Electric Vehicle',
@@ -69,7 +69,7 @@ export const experience = [
     accomplishments:
       'Reverse-engineered legacy and modern architecture and traced interfaces across PLC, heater-control, instrumentation, and safety systems for restoration of monitoring, control, and data acquisition capability.',
     technicalSkills:
-      'Allen-Bradley CompactLogix, PLC Interfaces, Analog I/O, Instrumentation, Thermocouples, P&IDs, Electrical Schematics, Technical Documentation'
+      'Allen-Bradley CompactLogix, PLC Interfaces, P&IDs, Technical Documentation'
   },
   {
     position: 'Intern',
@@ -108,11 +108,8 @@ export const skills = [
     items: [
       'PLCs',
       'Allen-Bradley CompactLogix Systems',
-      'Analog I/O',
       'Instrumentation',
-      'Thermocouples',
       'P&IDs',
-      'Electrical Schematics',
       'Experimental Methods',
       'Technical Documentation',
       'Troubleshooting'
@@ -152,22 +149,6 @@ export const galleryItems = [
     src: '',
     alt: '',
     title: 'CAD Models',
-    caption: 'Project images will be added here.',
-    featured: false
-  },
-  {
-    category: 'Prototyping',
-    src: '',
-    alt: '',
-    title: 'Prototype Iterations',
-    caption: 'Project images will be added here.',
-    featured: false
-  },
-  {
-    category: 'Experiments',
-    src: '',
-    alt: '',
-    title: 'Experimental Setups',
     caption: 'Project images will be added here.',
     featured: false
   }

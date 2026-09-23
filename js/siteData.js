@@ -18,7 +18,7 @@ export const projects = [
     approach:
       'Reverse-engineering control architecture and tracing electrical/communication interfaces using P&IDs, manuals, wiring diagrams, schematics, and hardware inspections.',
     results:
-      'Identified and documented LPU hardware, Allen-Bradley CompactLogix 5380 PLC hardware, analog heater controls, I/O modules, instrumentation interfaces, thermocouple safety circuits, relays, contactors, and 4-20 mA PLC interfaces while investigating legacy PC connectivity.',
+      'Identified and documented LPU hardware, Allen-Bradley CompactLogix 5380 PLC hardware, analog heater controls, I/O modules, instrumentation interfaces, thermocouple safety circuits, relays, contactors, and interfaces while investigating legacy PC connectivity.',
     skills: ['PLCs', 'Instrumentation', 'P&IDs', 'Troubleshooting'],
     technologies: ['Allen-Bradley CompactLogix 5380', 'Leeds & Northrup LPU', 'Thermocouples']
   },

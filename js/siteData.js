@@ -10,7 +10,7 @@ export const projects = [
     role: 'Undergraduate Researcher',
     organization: 'Clemson University Creative Inquiry',
     location: 'Clemson, SC',
-    dates: 'August 2026 - Present',
+    dates: 'Spring 2027 - Present',
     summary:
       'Recommissioning the computer control system of a NASA-developed Supercritical Water Oxidation apparatus for high-temperature, high-pressure waste treatment research.',
     problem:
@@ -62,7 +62,7 @@ export const experience = [
     position: 'Undergraduate Researcher',
     organization:
       'Clemson University — Spherical Flames and Supercritical Oxidation: Applications in Aerospace Propulsion and Space Explorations',
-    dates: 'August 2026 - Present',
+    dates: 'Spring 2027 - Present',
     location: 'Clemson, SC',
     description:
       'Recommissioning the NASA SCWO system control environment and documenting control, instrumentation, and communication pathways.',
